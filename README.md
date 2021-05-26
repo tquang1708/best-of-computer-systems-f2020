@@ -9,6 +9,16 @@ Some labs that I'm kinda proud of that came from the Computer Systems class of F
 > 
 > Of course, as mentioned, this program is intentionally exploitable. However, there do exist systems and programs that are unintentionally exploitable. Through this lab, aside from having a better understanding of the steps a program take while running, we should be able to also be aware of these exploits in an effort to not let them show up in our own softwares.
 
+I didn't do phase3_rop on my own. The answer to that was adapted from [here](https://github.com/JonnyKong/CMU-15-213-Intro-to-Computer-Systems/tree/master/LAB3_attacklab)
+
+> The reason I think for why the handout says it's hard is because to be honest I still do not know how I could have done it with only the instructions whose hexcodes are provided in the handout (which does not include add). Using these, the official solution used a total of 8 gadgets after all. So, there might have been 2 ways to solve this:
+> 
+> - Either try to figure out how to push the stack pointer up to point at the string without add, or rather with only the given commands or
+> 
+> - Look up how an add command is compiled, then search through the farm for it.
+> 
+> The former requires I feel a lot of ingenuity and mastery of Assembly commands, while the latter requires thinking outside the constraint of the handout, plus some crafty real-world creativity, since technically for a ROP attack the perpetrator would just use anything at their disposal. Both of the solutions show the difficulty of the problem in different ways.
+
 ## Shell Lab
 
 > ...the shell lab, in which we are tasked to write "a simple Unix shell that supports job control," in order to be "more familiar with the concepts of process control and signalling."
