@@ -15,6 +15,8 @@ Some labs that I'm kinda proud of that came from the Computer Systems class of F
 
 ## Malloc Lab
 
+Forgive me (for not completing it), for I have (only one week to do each lab).
+
 > ...the Malloc lab, which, according to the handout, asks us to write "a dynamic storage allocator for C programs, i.e., your own version of the malloc, free and realloc routines. You are encouraged to explore the design space creatively and implement an allocator that is correct, efficient and fast."
 
 > I originally was planning to go for a segregated list approach. Aside from it being the closest thing to the actual C Malloc implementation, it also provides really good efficiency guarantees in comparison to other methods, like O(log(n)) lookup time for malloc (n being the total number of free blocks). However, due to time constraint, I was only able to implement an explicit list version. It is to be noted though that theoretically speaking, modifying this to become a segregated list is rather simple.
